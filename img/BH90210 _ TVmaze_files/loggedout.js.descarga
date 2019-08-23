@@ -1,0 +1,1 @@
+$(function(){$('.js-needlogin').click(function(e){e.preventDefault();$.ajax('/account/loginmodal').done(function(resp){$('#modal').html(resp).foundation('open');});});});

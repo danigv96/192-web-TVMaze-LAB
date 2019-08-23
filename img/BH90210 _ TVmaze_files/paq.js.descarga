@@ -1,0 +1,4 @@
+if(typeof _tv_ads!=='undefined'){_paq.push(['setCustomDimension',1,'1']);}
+else{_paq.push(['setCustomDimension',1,'0']);}
+var visible=0;if(typeof ad_defs!=='undefined'){ad_defs.forEach(function(ad_def){var el=document.getElementById(ad_def.slotId);var isVisible=el!==null&&el.parentElement.offsetParent!==null;if(isVisible){visible++;}});}
+_paq.push(['setCustomDimension',4,visible.toString()]);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);(function(){var u="//nozem.tvmaze.com/";_paq.push(['setTrackerUrl',u+'script.php?tv']);_paq.push(['setSiteId','1']);var d=document,g=d.createElement('script'),s=d.getElementsByTagName('script')[0];g.type='text/javascript';g.async=true;g.defer=true;g.src=u+'script.js';s.parentNode.insertBefore(g,s);})();
